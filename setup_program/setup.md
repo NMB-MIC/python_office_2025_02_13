@@ -11,6 +11,8 @@ del .\miniconda.exe
 - create env
 ```
 conda create -n python_office python
+
+conda create -n python_office python==3.11
 ```
 - activate
 ```
@@ -29,7 +31,20 @@ conda env list
 conda remove --name python_office --all
 ```
 
+- list
+```
+conda list
+```
 
+- install pandas 
+```
+pip install pandas
+```
+
+- uninstall pandas 
+```
+pip uninstall pandas
+```
 ## vscode extension
 ```
 Python Extension Pack
