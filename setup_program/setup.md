@@ -12,6 +12,24 @@ del .\miniconda.exe
 ```
 conda create -n python_office python
 ```
+- activate
+```
+conda activate python_office
+```
+- deactivate
+```
+conda deactivate 
+```
+- check env
+```
+conda env list
+```
+- remove env
+```
+conda remove --name python_office --all
+```
+
+
 ## vscode extension
 ```
 Python Extension Pack
