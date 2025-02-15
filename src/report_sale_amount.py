@@ -57,6 +57,8 @@ def report_daily():
         sheet["A3"].value = pivot
 
     sheet_1.delete()
-    template.save(f"export\sale_amount_by_daily_12_month_{formatted_time}.xlsx")
+    file_name = f"export\sale_amount_by_daily_12_month_{formatted_time}.xlsx"
+    template.save(file_name)
     template.close() # close workbook
     app.kill() # close app
+    return file_name
